@@ -1,6 +1,6 @@
 # 设置lstm训练参数
 class TrainingConfig(object):
-    batch_size = 8
+    batch_size = 4
     # 学习速率
     lr = 0.001
     epoches = 30
