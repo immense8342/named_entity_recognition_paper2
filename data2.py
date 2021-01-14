@@ -8,11 +8,11 @@ def build_corpus(split, make_vocab=True, data_dir="./ResumeNER"):
 
     word_lists = []
     tag_lists = []
-    with open(join(data_dir, split+"_BIO.txt"), 'r', encoding='utf-8') as f:
+    with open(join(data_dir, split+"_BIOES.txt"), 'r', encoding='utf-8') as f:
         word_list = []
         tag_list = []
         for line in f:
-            if line != '####EndOfBIO####\r':
+            if line != '####EndOfBIOES####\r':
                 print("split", split, "line", line,"line.strip('\\n').split()", line.strip('\n').split())
                 if line.strip('\n') == "\r":
                     continue

@@ -31,7 +31,7 @@ def main():
         (train_word_lists, train_tag_lists),
         (test_word_lists, test_tag_lists)
     )
-    
+    '''
     # 训练评估BI-LSTM模型
     print("正在训练评估双向LSTM模型...")
     # LSTM模型训练的时候需要在word2id和tag2id加入PAD和UNK
@@ -63,12 +63,12 @@ def main():
         (test_word_lists, test_tag_lists),
         crf_word2id, crf_tag2id
     )
-
+   
     ensemble_evaluate(
         [hmm_pred, crf_pred, lstm_pred, lstmcrf_pred],
         test_tag_lists
     )
-
+    '''
 
 if __name__ == "__main__":
     main()
