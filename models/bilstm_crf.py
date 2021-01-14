@@ -17,7 +17,7 @@ class BILSTM_Model(object):
             vocab_size:词典大小
             out_size:标注种类
             crf选择是否添加CRF层"""
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         print("torch.cuda.is_available()", torch.cuda.is_available())
         print("self.device ", self.device)
         import os
@@ -67,8 +67,7 @@ class BILSTM_Model(object):
             for ind in range(0, len(word_lists), B):
                 batch_sents = word_lists[ind:ind+B]
                 batch_tags = tag_lists[ind:ind+B]
-                losses += self.train_step(batch_sents,
-                                          batch_tags, word2id, tag2id)
+                losses += self.train_step(batch_sents,batch_tags, word2id, tag2id)
 
                 if self.step % TrainingConfig.print_step == 0:
                     total_step = (len(word_lists) // B + 1)

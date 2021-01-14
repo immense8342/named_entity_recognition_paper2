@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096f1ae3-e889-48a1-a9c4-d732e637a1e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/named_entity_recognition-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/named_entity_recognition-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ResumeNER/dev_BIOES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeNER/dev_BIOES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ResumeNER/test_BIOES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeNER/test_BIOES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ResumeNER/train_BIOES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeNER/train_BIOES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckpts/bilstm.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ckpts/bilstm.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckpts/crf.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ckpts/crf.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckpts/hmm.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ckpts/hmm.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluating.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/bilstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/bilstm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/bilstm_crf.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/bilstm_crf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/hmm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/util.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
               </folding>
@@ -53,22 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/bilstm_crf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+            <state relative-caret-position="222">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -79,10 +55,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="1672">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="21" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="73" column="57" lean-forward="true" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="76">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -100,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/software/Anaconda3/envs/named_entity_recognition-master/Lib/site-packages/torch/nn/functional.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31920">
-              <caret line="1691" selection-start-line="1691" selection-end-line="1691" />
+            <state relative-caret-position="70">
+              <caret line="1682" column="7" lean-forward="true" selection-start-line="1682" selection-start-column="7" selection-end-line="1682" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -109,8 +97,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResumeNER/test_BIOES.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296191">
-              <caret line="15589" selection-start-line="15589" selection-end-line="15589" />
+            <state relative-caret-position="208">
+              <caret line="15226" selection-start-line="15226" selection-end-line="15226" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResumeNER/dev_BIOES.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="17782" selection-start-line="17782" selection-end-line="17782" />
             </state>
           </provider>
         </entry>
@@ -118,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResumeNER/train_BIOES.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1639073">
-              <caret line="86267" selection-start-line="86267" selection-end-line="86267" />
+            <state relative-caret-position="208">
+              <caret line="53898" selection-start-line="53898" selection-end-line="53898" />
             </state>
           </provider>
         </entry>
@@ -150,13 +147,13 @@
         <option value="$PROJECT_DIR$/models/util.py" />
         <option value="$PROJECT_DIR$/evaluating.py" />
         <option value="$PROJECT_DIR$/data.py" />
+        <option value="$PROJECT_DIR$/models/bilstm.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/ResumeNER/dev_BIOES.txt" />
         <option value="$PROJECT_DIR$/ResumeNER/test_BIOES.txt" />
         <option value="$PROJECT_DIR$/ResumeNER/train_BIOES.txt" />
-        <option value="$PROJECT_DIR$/models/bilstm.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/models/bilstm_crf.py" />
         <option value="$PROJECT_DIR$/models/config.py" />
+        <option value="$PROJECT_DIR$/models/bilstm_crf.py" />
       </list>
     </option>
   </component>
@@ -182,11 +179,6 @@
             <path>
               <item name="named_entity_recognition-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="named_entity_recognition-master" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="named_entity_recognition-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="named_entity_recognition-master" type="462c0819:PsiDirectoryNode" />
               <item name="ResumeNER" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -198,7 +190,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../doccano_json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ResumeNER" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -370,14 +362,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13738441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52974504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26345608" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,44 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeNER/dev_BIOES.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301606">
-          <caret line="15874" selection-start-line="15874" selection-end-line="15874" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Anaconda3/envs/named_entity_recognition-master/Lib/site-packages/torch/nn/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31920">
-          <caret line="1691" selection-start-line="1691" selection-end-line="1691" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeNER/test_BIOES.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296191">
-          <caret line="15589" selection-start-line="15589" selection-end-line="15589" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeNER/train_BIOES.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1639073">
-          <caret line="86267" selection-start-line="86267" selection-end-line="86267" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -578,30 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/util.py">
+    <entry file="file://D:/software/Anaconda3/envs/named_entity_recognition-master/Lib/site-packages/torch/nn/functional.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/bilstm_crf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="70">
+          <caret line="1682" column="7" lean-forward="true" selection-start-line="1682" selection-start-column="7" selection-end-line="1682" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -615,12 +548,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeNER/train_BIOES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="53898" selection-start-line="53898" selection-end-line="53898" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeNER/dev_BIOES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17782" selection-start-line="17782" selection-end-line="17782" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeNER/test_BIOES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15226" selection-start-line="15226" selection-end-line="15226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/bilstm_crf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="228">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="73" column="57" lean-forward="true" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
