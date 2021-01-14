@@ -23,7 +23,7 @@ def setup_seed(seed):
 
 def main():
     # 设置随机数种子
-    setup_seed(2)
+    setup_seed(88)
     """训练模型，评估结果"""
 
     # 读取数据
