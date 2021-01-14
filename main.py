@@ -5,9 +5,25 @@ from data4 import build_corpus
 from utils import extend_maps, prepocess_data_for_lstmcrf
 from evaluate import hmm_train_eval, crf_train_eval, \
     bilstm_train_and_eval, ensemble_evaluate
+import torch
+import numpy as np
+import random
+
+def setup_seed(seed):
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.backends.cudnn.deterministic = True
+
+
+
+
 
 
 def main():
+    # 设置随机数种子
+    setup_seed(20)
     """训练模型，评估结果"""
 
     # 读取数据

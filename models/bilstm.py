@@ -1,9 +1,11 @@
 import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
-
+import numpy as np
+import random
 
 class BiLSTM(nn.Module):
+    
     def __init__(self, vocab_size, emb_size, hidden_size, out_size):
         """初始化参数：
             vocab_size:字典的大小
