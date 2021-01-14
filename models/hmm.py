@@ -27,10 +27,14 @@ class HMM(object):
             word2id: 将字映射为ID
             tag2id: 字典，将标注映射为ID
         """
-
+        #断言，不满足条件直接返回异常
         assert len(tag_lists) == len(word_lists)
 
-        # 估计转移概率矩阵
+        #估计转移概率矩阵
+        '''
+        seq_len: 每个标注的长度
+        
+        '''
         for tag_list in tag_lists:
             seq_len = len(tag_list)
             for i in range(seq_len - 1):

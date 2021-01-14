@@ -11,6 +11,9 @@ class BiLSTM(nn.Module):
             hidden_size：隐向量的维数
             out_size:标注的种类
         """
+        import os
+        #os.environ["CUDA_VISIBLE_DEVICES"] = '1'
+
         super(BiLSTM, self).__init__()
         self.embedding = nn.Embedding(vocab_size, emb_size)
         self.bilstm = nn.LSTM(emb_size, hidden_size,

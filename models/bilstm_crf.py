@@ -1,6 +1,6 @@
 from itertools import zip_longest
 from copy import deepcopy
-
+import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -17,8 +17,11 @@ class BILSTM_Model(object):
             vocab_size:词典大小
             out_size:标注种类
             crf选择是否添加CRF层"""
-        self.device = torch.device(
-            "cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        print("torch.cuda.is_available()", torch.cuda.is_available())
+        print("self.device ", self.device)
+        import os
+        #os.environ["CUDA_VISIBLE_DEVICES"] = '1'
 
         # 加载模型参数
         self.emb_size = LSTMConfig.emb_size
@@ -64,7 +67,6 @@ class BILSTM_Model(object):
             for ind in range(0, len(word_lists), B):
                 batch_sents = word_lists[ind:ind+B]
                 batch_tags = tag_lists[ind:ind+B]
-
                 losses += self.train_step(batch_sents,
                                           batch_tags, word2id, tag2id)
 

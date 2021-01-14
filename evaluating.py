@@ -34,8 +34,11 @@ class Metrics(object):
 
         precision_scores = {}
         for tag in self.tagset:
-            precision_scores[tag] = self.correct_tags_number.get(tag, 0) / \
-                self.predict_tags_counter[tag]
+            divideNum = 1e-10
+            if self.predict_tags_counter.get(tag):
+                divideNum = self.predict_tags_counter[tag]
+            precision_scores[tag] = self.correct_tags_number.get(tag, 0) / divideNum
+
 
         return precision_scores
 

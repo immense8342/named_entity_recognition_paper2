@@ -19,6 +19,7 @@ def word2features(sent, i):
         'w-1:w': prev_word+word,
         'w:w+1': word+next_word,
         'bias': 1
+
     }
     return features
 
