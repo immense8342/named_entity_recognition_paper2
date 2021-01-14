@@ -1,3 +1,6 @@
+#!/usr/bin/env Python
+# coding=utf-8
+
 from os.path import join
 from codecs import open
 
@@ -8,12 +11,15 @@ def build_corpus(split, make_vocab=True, data_dir="./ResumeNER"):
 
     word_lists = []
     tag_lists = []
-    with open(join(data_dir, split+".char.bmes"), 'r', encoding='utf-8') as f:
+    with open(join(data_dir, split+"_BIOES.txt"), 'r', encoding='utf-8') as f:
         word_list = []
         tag_list = []
         for line in f:
-            if line != '\n':
-                word, tag = line.strip('\n').split()
+            if line != '\r\n':
+                x = line.strip('\r\n')
+                if len(line.strip('\r\n').split()) == 1:
+                    continue
+                word, tag = line.strip('\r\n').split()
                 word_list.append(word)
                 tag_list.append(tag)
             else:

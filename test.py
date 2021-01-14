@@ -1,5 +1,5 @@
 from utils import load_model, extend_maps, prepocess_data_for_lstmcrf
-from data import build_corpus
+from data3 import build_corpus
 from evaluating import Metrics
 from evaluate import ensemble_evaluate
 
